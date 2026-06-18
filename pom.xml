@@ -27,7 +27,7 @@
             <version>${javafx.version}</version>
         </dependency>
 
-        <!-- JavaFX FXML (caso queira expandir no futuro) -->
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
@@ -37,7 +37,7 @@
 
     <build>
         <plugins>
-            <!-- Plugin JavaFX Maven -->
+
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
@@ -47,7 +47,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Plugin para gerar JAR executável com dependências -->
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
